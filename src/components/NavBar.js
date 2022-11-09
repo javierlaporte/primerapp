@@ -1,5 +1,9 @@
+import CartWidget from "./CartWidget";
+
 const NavBar = () => {    
-    return <nav class="navbar navbar-expand-lg bg-light">
+    return (
+    
+    <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <h1 class="navbar-brand" href="#">The Grow</h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +24,9 @@ const NavBar = () => {
         </ul>
       </div>
     </div>
+    <div><CartWidget/></div>
   </nav>
+  )
     ;
 };
 
