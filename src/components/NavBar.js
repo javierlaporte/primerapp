@@ -1,6 +1,6 @@
 import CartWidget from "./CartWidget";
 
-const NavBar = () => {    
+const NavBar = ({greeting}) => {    
     return (
     
     <nav class="navbar navbar-expand-lg bg-light">
@@ -24,7 +24,11 @@ const NavBar = () => {
         </ul>
       </div>
     </div>
+    <div>
+    <p>{greeting}</p>    
+    </div>
     <div><CartWidget/></div>
+    
   </nav>
   )
     ;
