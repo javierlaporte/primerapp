@@ -1,7 +1,15 @@
+import carrito from "../assets/carrito.png"
 const CartWidget = () => {
 return (
-<button  type="button" class="btn btn-outline-primary">Carrito</button>
+<button>
+<img src={carrito} width="40px"></img>
+
+</button>
+
+
 )
+
+
 };
 
 export default CartWidget;
