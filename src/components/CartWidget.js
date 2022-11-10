@@ -1,6 +1,6 @@
 const CartWidget = () => {
 return (
-<button type="button" class="btn btn-outline-primary">Carrito</button>
+<button  type="button" class="btn btn-outline-primary">Carrito</button>
 )
 };
 

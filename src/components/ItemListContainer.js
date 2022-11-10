@@ -1,15 +1,11 @@
-import NavBar from "./NavBar";
 
-const ItemListContainer = () => {
+const ItemListContainer = ({greeting}) => {
 return (
 <div>
-<NavBar greeting={"Bienvenido a The Grow "} />
+{greeting}
 
 </div>
-
 )
-
-
 
 
 };

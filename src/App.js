@@ -5,8 +5,8 @@ import ItemListContainer from './components/ItemListContainer';
 function App() {
   return (
     <div class="App">
-     
-     <ItemListContainer/>    
+     <NavBar/> 
+     <ItemListContainer greeting={"Bienvenido a The Grow"} />    
 
 
     </div>
