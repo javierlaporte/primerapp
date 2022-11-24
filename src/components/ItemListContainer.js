@@ -1,4 +1,5 @@
 import {useState} from "react"; 
+import ItemList from "./ItemList";
 
 
 const productos = [
@@ -34,18 +35,9 @@ const ItemListContainer = ({greeting}) => {
 return (
 <div>
 {greeting}
-    <ul>
-    {products.map((product)=> (
-    <div>
-        <img src={product.img} />
-        <li> {product.name} </li>
-        
-        
-        </div> ))}
-
-    
-    </ul>
+    <ItemList/>
 </div>
+    
 )
 
 
