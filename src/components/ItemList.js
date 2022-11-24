@@ -1,10 +1,10 @@
-import Item from "./Item"
+import Item from "./Item";
 
-const ItemList = (products) => {
+const ItemList = ({products}) => {
 return (
     <ul>
 
-    {products.map ((products) =>(
+    {products.map ((product) =>(
 
     <Item product={product} />  
 
